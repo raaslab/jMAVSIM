@@ -1,0 +1,17 @@
+
+Hardware in the Loop (HITL)
+
+java -Djava.ext.dirs= -cp lib/*:out/production/jmavsim.jar me.drton.jmavsim.Simulator -serial /dev/ttyACM0 921600 -qgc
+https://pixhawk.org/dev/hil/jmavsim
+
+
+
+
+
+
+integration description - https://pixhawk.org/dev/ros/hil
+
+
+
+
+

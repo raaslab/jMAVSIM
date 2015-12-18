@@ -112,7 +112,7 @@ public class Simulator {
         serialMAVLinkPort.sendRaw("\nsh /etc/init.d/rc.usb\n".getBytes());
         //udpMavLinkPort.setDebug(true);
 //        udpMavLinkPort.open(new InetSocketAddress("127.0.0.1", 14555), new InetSocketAddress("127.0.0.1", 14550));
-        udpMavLinkPort.open(new InetSocketAddress("192.168.1.105", 14555), new InetSocketAddress("192.168.1.111", 14550));
+        udpMavLinkPort.open(new InetSocketAddress("192.168.1.105", 14555), new InetSocketAddress("192.168.1.105", 14550));
  	// udpMavlinkPort.open(listen, talk);
         // Run
         try {
